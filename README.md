@@ -7,6 +7,7 @@ Create a Foundry project at ai.azure.com with gpt-4o deployment, noting the endp
 Clone the GitHub repo (mslearn-ai-agents), set up a Python venv, install dependencies (azure-ai-projects, azure-ai-agents, a2a-sdk), and configure .env with project endpoint.
 ### Step 3:
 Implement the title agent in agent.py (using AgentsClient, create_agent) and server.py (AgentCard, skills, A2AStarletteApplication).
+Same concept applies to the outline agent as well, the agent.py would be deployed with the server.py.
 
 
 ### Agent interactions:
